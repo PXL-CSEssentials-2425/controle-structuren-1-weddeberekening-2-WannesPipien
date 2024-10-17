@@ -1,0 +1,22 @@
+﻿<Window x:Class="Weddeberekening_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Weddeberekening_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="employeeTextBox" HorizontalAlignment="Left" Margin="234,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="hoursTextBox" HorizontalAlignment="Left" Margin="234,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="wageTextBox" HorizontalAlignment="Left" Margin="234,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Margin="111,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="243" Height="144" IsEnabled="False"/>
+        <Label Content="Personeelslid" HorizontalAlignment="Left" Margin="111,69,0,0" VerticalAlignment="Top"/>
+        <Label Content="Aantal uren" HorizontalAlignment="Left" Margin="111,115,0,0" VerticalAlignment="Top"/>
+        <Label Content="Uurloon" HorizontalAlignment="Left" Margin="111,166,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="400,162,0,0" VerticalAlignment="Top" Height="34" Width="102" Click="closeButton_Click"/>
+        <Button x:Name="eraseButton" Content="Wissen" HorizontalAlignment="Left" Margin="400,112,0,0" VerticalAlignment="Top" Height="34" Width="102" Click="eraseButton_Click"/>
+        <Button x:Name="calculateButton" Content="Bereken" HorizontalAlignment="Left" Margin="400,65,0,0" VerticalAlignment="Top" Height="34" Width="102" Click="calculateButton_Click"/>
+
+    </Grid>
+</Window>
